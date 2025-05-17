@@ -1,0 +1,40 @@
+/*
+.categorias {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.productos {
+    background-color: blueviolet;
+    width: 25%;
+    padding: 16px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.categorias p {
+    font-size: 20px;   
+}
+
+.productos .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: lightcoral;
+    display: block;
+  
+}
+
+.productos .autor {
+    font-size: 10px;
+    text-align: center;
+    background-color: lightcoral;
+    display: block;
+    margin: 12px 0;
+}
+*/

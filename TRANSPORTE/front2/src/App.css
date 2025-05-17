@@ -1,0 +1,89 @@
+/* margen de total de pagina{}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0%;
+}
+
+header h1 {
+    margin: 0%;
+    width: 100%;
+    background: rgb(169, 176, 186);
+    background: linear-gradient(90deg, rgba(169, 176, 186, 1) 0%, rgba(194, 163, 137, 1) 11%, rgb(241, 107, 84) 49%, rgb(223, 92, 59) 100%);
+    padding: 50px 100px;
+    /*para que los objetos tengan mayor margen para adentro*/
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: "Playwrite ES Deco", cursive;
+    position: relative;
+
+}
+
+
+header img {
+    /*tamaño de la imagen*/
+    width: 90px;
+    border-radius: 50%;
+}
+
+
+ul {
+    display: flex;
+    gap: 10px;
+    /*link navs uno al lado del otro*/
+
+}
+
+nav {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    width: 100%;/* o cualquier valor fijo, como 800px */ 
+    margin: 0 auto;
+    }
+
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+nav ul li a {
+    /*formato de los navs*/
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    transition: scale 0s;
+    font-family: "Playwrite ES Deco", cursive;
+    gap: 10px;
+    margin-right: 100px;
+    color: black;
+    flex-grow: 1;
+}
+
+ul li a:hover {
+    /*hover le da el efecto de aumento de tamaño cuando se pone el mouse encima*/
+    scale: 1.1;
+}
+
+
+Footer {
+    background: linear-gradient(90deg, rgba(169, 176, 186, 1) 0%, rgba(194, 163, 137, 1) 11%, rgb(241, 107, 84) 49%, rgb(223, 92, 59) 100%);
+    color: rgb(71, 69, 69);
+    text-align: center;
+}
+
+Footer a {
+    color: black;
+
+}

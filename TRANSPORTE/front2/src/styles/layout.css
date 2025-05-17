@@ -1,0 +1,220 @@
+header {
+  padding: 5% 0;
+  margin: 0%;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+  padding: 100px
+}
+
+nav {
+  padding: 10px 30px;
+}
+
+footer {
+  clear: both;
+  color: black;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0% auto;
+}
+
+h2 {
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 4;
+  /* o puede ser en px: 24px, etc. */
+}
+
+h3 {
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 4;
+  text-align: center;
+}
+
+
+.persona p {
+    color: #666;
+    font-size: 10px;
+}
+
+/*el css de nosotros*/
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicio .info h4{
+    color: rgb(49, 16, 16);
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+ font-size: 13px;
+/* line-height: 19px; */   
+} 
+.servicio:nth-child {
+ flex-direction: row-reverse;   
+}
+.servicio img{
+ border-radius: 13px; 
+ display: block; 
+ max-width: 225px;   
+}
+
+.categorias {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*el css de mi home*/
+.productos {
+    background-color: gainsboro;
+    width: 25%;
+    padding: 16px;
+    align-content: center;
+}
+
+.columnasinicio{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.categorias p {
+    font-size: 20px;   
+}
+
+.productos .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+  
+}
+
+.productos .autor{ 
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+   
+.producto img{ 
+  border-radius: 13px; 
+ display: flexs; 
+ max-width: 10px;  
+
+}
+ 
+/*mi css de formulario*/
+.holder .contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li p {
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+}
+
+.container {  
+    max-width: 540px;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.container, .container-fluid {
+    padding: 0 var(--gutter-container);
+}
+.formulario p {
+    display: block;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+.formulario input[type="submit"]:hover {
+    background-color: aqua;
+}
+
+.formulario p textarea {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type=¨submit¨] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 80%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.formulario input[type=¨submit¨]:hover {
+    background-color: lightgreen;
+}
